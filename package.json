@@ -1,0 +1,48 @@
+{
+  "name": "backend-assessment",
+  "version": "1.0.0",
+  "author": "Carlos Rodríguez",
+  "private": true,
+  "description": "Backend Assessment",
+  "license": "MIT",
+  "keywords": [],
+  "engines": {
+    "node": "8.11.2"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "debug": "node --nolazy --inspect-brk=9229 app.js",
+    "test": "mocha --recursive"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.15.5",
+    "jsonwebtoken": "^7.1.9",
+    "morgan": "~1.9.0",
+    "nodemon": "^1.17.5",
+    "passport": "^0.3.2",
+    "request": "^2.81.0",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "chai-http": "^3.0.0",
+    "express-request-mock": "^1.1.0",
+    "http-server": "^0.6.1",
+    "mocha": "^3.4.2",
+    "mock-http-server": "^0.1.0",
+    "mock-res": "^0.4.1",
+    "mongoose-mock": "^0.4.0",
+    "nock": "^9.0.13",
+    "proxyquire": "^1.8.0",
+    "require-directory": "^2.0.0",
+    "supertest": "^3.0.0",
+    "sinon": "^2.3.6",
+    "sinon-chai": "^2.11.0",
+    "sinon-express-mock": "^1.3.1"
+  }
+}
